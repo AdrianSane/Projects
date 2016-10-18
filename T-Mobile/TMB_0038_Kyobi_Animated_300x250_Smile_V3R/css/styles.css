@@ -1,0 +1,150 @@
+/************************************
+
+*    Droga5 Banner CSS
+*    Adrian Velazquez
+*    Junior Interactive Developer
+*    May - 2016
+    --------------------
+*    avelazquez@droga5.com
+
+************************************/
+/*
+.ref{
+opacity: .25;
+}
+*/
+#banner {
+overflow: hidden;
+cursor: pointer;
+background-color: #e8e8e8;
+border: 1px solid black;
+width: 300px;
+height: 250px;
+transform: translate3d(0px, 0px, 0px);
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+.dimensions {
+width: 300px;
+height: 250px;
+position: absolute;
+top: 0;
+left: 0;
+}
+/*
+  apply this class to retina sized graphics
+  be sure to change the dimensions to double
+  the width and height of your banner's actual
+  dimensions
+*/
+.retina {
+background-size: 300px 250px;
+width: 300px;
+height: 250px;
+}
+/* hides all elements until called in the javascript */
+.hidden{
+opacity:0;
+}
+.logo{
+background-image: url(../images/logo.png);
+background-size: cover;
+width: 98px;
+height: 17px;
+position: absolute;
+top: 15px;
+left: 23px;
+}
+.txt, .endFrame{
+width:300px;
+height:250px;
+position: relative;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+.txt1{
+background-image: url(../images/txt1.png);
+background-size: cover;
+width: 171px;
+height: 31px;
+position: absolute;
+top: 110px;
+left: 65px;
+}
+.txt2{
+background-image: url(../images/txt2.png);
+background-size: cover;
+width: 137px;
+height: 31px;
+position: absolute;
+top: 99px;
+left: 78px;
+}
+.txt3{
+background-image: url(../images/txt3.png);
+background-size: cover;
+width: 138px;
+height: 30px;
+position: absolute;
+top: 138px;
+left: 40px;
+}
+.txt4{
+background-image: url(../images/txt4.png);
+background-size: cover;
+width: 198px;
+height: 30px;
+position: absolute;
+top: 175px;
+left: 65px;
+}
+.dude{
+background-image: url(../images/dude.png);
+background-size: cover;
+width: 494px;
+height: 250px;
+position: absolute;
+top: 0px;
+left: -101px;
+}
+.endFrame{
+background-color: #e20074;
+}
+#textContainer,
+#buttonContainer {
+width: 300px;
+height: 250px;
+position: absolute;
+}
+/* masks for final frame */
+.textMask {
+clip: rect(10px, 290px, 150px, 10px);
+}
+.txt5{
+background-image: url(../images/txt5.png);
+background-size: cover;
+width: 230px;
+height: 100px;
+position: absolute;
+top: 50px;
+left: 39px;
+}
+/* masks for final frame */
+.buttonMask {
+clip: rect(150px, 290px, 240px, 10px);
+}
+.button {
+background-image: url(../images/appLogos.png);
+background-size: cover;
+width: 223px;
+height: 33px;
+position: absolute;
+margin: 160px 20px 0 20px;
+left: 20px;
+}
