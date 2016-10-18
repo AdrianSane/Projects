@@ -1,0 +1,207 @@
+/*
+
+    Droga5 Banner CSS
+    Adrian Velazquez
+    --------------------
+    avelazquez@droga5.com
+
+*/
+
+/* centers elements horizontally and vertically */
+.center {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* centers elements horizontally */
+.center-horiz {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* centers elements vertically */
+.center-vert {
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.border {
+  z-index: 100;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  pointer-events: none; }
+
+
+/**********  Utilities  ***********/
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0; }
+
+/* set the dimensions of your banner here */
+.dimensions {
+  width: 970px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*  apply this to initialize elements as hidden until they are needed.
+    use 'autoAlpha:1' in GSAP to show hidden elements */
+.hidden {
+  visibility: hidden; }
+/*
+.comp {
+  background: url('../images/NEX_1635_Announce_US_TAG_HPTO_CNN_970x250.jpg') no-repeat;
+  opacity: 0.2;
+  background-size: contain; }
+*/
+div {
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  }
+
+.svg {
+  background-size: contain;
+}
+
+/* main container element for banner */
+.banner {
+  overflow: hidden;
+  cursor: pointer;
+  background-color: white;
+  transform: translate3d(0px, 0px, 0px);
+  position: absolute;
+  width: 970px;
+  height: 250px;
+  }
+
+.banner .border {
+  width: 970px;
+  height: 250px; }
+
+/* sets up main stage clickable area */
+#hit {
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer; }
+
+/**********  Banner Elements/Layout  ***********/
+.brand-blue {
+  color: #4093d0;
+}
+
+.bg {
+  background-color: #fff; }
+
+/* search bar elements */
+.search{
+  border: 1px solid #797979;
+  background-color: #fff;
+  width: 527px;
+  height: 36px;
+  top: 107px;
+  left: 232px;
+}
+.cursor{
+background-image: url("../images/cursor.png");
+background-size: contain;
+width: 3px;
+height: 23px;
+left: 4px;
+top: 6px;
+}
+
+/* headline */
+.headline {
+  background-image: url("../images/headline.svg");
+  width: 185px;
+  height: 50px;
+  left: 91px;
+  top: 129px;
+}
+
+/* carrier */
+.carrier {
+  background-image: url("../images/VZ-logo.svg");
+  width: 93px;
+  height: 39px;
+  left: 707px;
+  top: 67px;
+}
+
+/* phone */
+.phone {
+  background-image: url("../images/phone.png");
+  background-size: contain;
+  width: 105px;
+  height: 214px;
+  left: 5px;
+  top: 24px;
+}
+
+/* sprite animation holders */
+.sprite-container {
+  display: block;
+  overflow: hidden;
+}
+
+/* super g logo */
+.logo-container {
+  width: 60px;
+  height: 40px;
+  top: 66px;
+  left: -596px;
+}
+
+.logo {
+  /* set the zoom and -moz-transform to scale down the animation */
+  background-image: url('../images/super-g-sprite.png');
+  width: 238px;
+  height: 156px;
+  top: -51px;
+  left: -85px;
+}
+
+
+
+/**********  CTA  ***********/
+.cta-container {
+  width: 116px;
+  height: 35px;
+  top: 150px;
+  left: 535px;
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+.cta-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #4285f4;
+  border-radius: 2px;
+
+  /* drop shadow */
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+.cta-label {
+  background-image: url('../images/ctaTxt.svg');
+  //position: relative;
+  width:77px;
+  height:12px;
+  top: 11px;
+  left:20px;}
