@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=ad.size content="width=970,height=250">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Droga5 Banner | Chase Sapphire Reserve</title>
+<script>var vendor="dfa",clickTag="http://www.google.com";</script>
+<style>.off-screen{position:absolute;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);padding:0;border:0;height:1px;width:1px;overflow:hidden;z-index:-1000}</style>
+</head>
+<body onload=checkInit()>
+<div id=banner class="dimensions hidden">
+<div class=border></div>
+<div class=off-screen>
+<p>Introducing what's next in travel. Chase Sapphire Reserve(SM).</p>
+<p>Travel's changing. Carry the only card designed to stay ahead.</p>
+</div>
+<div class="bg-elements dimensions">
+<div class="bg dimensions image"></div>
+<div class="bg-house dimensions image"></div>
+<div class="bg-pool dimensions image"></div>
+</div>
+<div class="comp dimensions"></div>
+<div class="headline headline1a dimensions image hidden"></div>
+<div class=footer></div>
+<div class="logo-syc hidden"></div>
+<div class="logo-sapphire hidden"></div>
+<div class="card-footer dimensions hidden">
+<div class="card-facets-lower dimensions image"></div>
+<div class="card image"></div>
+</div>
+<div class="card-main dimensions hidden">
+<div class="card-facets dimensions image"></div>
+<div class="card image"></div>
+</div>
+<div class="headline headline1b dimensions image hidden"></div>
+<div class="headline headline2 dimensions image hidden"></div>
+<div class="headline headline3 dimensions image hidden"></div>
+<div id=hit tabindex=0 class=dimensions onclick=vendorClickHandler(event)></div>
+<div id=controls tabindex=0>
+<div id=btn_pause name=pause-button class=image></div>
+<div id=btn_play name=play-button class="image hidden"></div>
+<div id=btn_replay name=replay-button class="image hidden"></div>
+</div>
+<div id=cta tabindex=1 class=hidden></div>
+<div id=loader class=dimensions></div>
+</div>
+<script>var counter=0,$loader=document.getElementById("loader");function checkInit(){if(vendor=="sizmek"){if(!EB.isInitialized()){EB.addEventListener(EBG.EventName.EB_INITIALIZED,wait)}else{loadScripts()}}else{if(vendor=="doubleclick"){if(Enabler.isPageLoaded()){function b(){if(Enabler.isVisible()){a()}else{Enabler.addEventListener(studio.events.StudioEvent.VISIBLE,a)}}function a(){loadScripts()}}else{Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED,loadScripts)}}else{if(vendor=="dfa"||vendor=="dcm"||vendor=="atlas"){loadScripts()}}}}function loadScripts(){loadJsCssFile("css/styles.css",trackProgress);loadJsCssFile("https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js",trackProgress)}function trackProgress(){counter++;if(counter==2){loadNext()}}function loadNext(){loadJsCssFile("js/scripts.js",allLoaded)}function allLoaded(){$loader.style.display="none"}function vendorClickHandler(a){switch(vendor){case"doubleclick":Enabler.exit("Background Exit");break;case"sizmek":EB.clickthrough();break;case"dcm":ExitApi.exit();break;case"dfa":javascript:window.open(window.clickTag,"_blank");break;case"atlas":javascript:window.open("{{PUB_CLICKTHROUGH}}","_blank");break}}function loadJsCssFile(a,c){var b=a.substring(a.lastIndexOf(".")+1);if(b=="js"){var d=document.createElement("script");d.setAttribute("type","text/javascript");d.setAttribute("src",a)}else{if(b=="css"){var d=document.createElement("link");d.setAttribute("rel","stylesheet");d.setAttribute("type","text/css");d.setAttribute("href",a)}}if(typeof d!="undefined"){if(c){if(d.readyState){d.onreadystatechange=d.onload=function(){if(d.readyState=="loaded"||d.readyState=="complete"){d.onreadystatechange=null;c()}}}else{d.onload=function(){c()}}}document.getElementsByTagName("head")[0].appendChild(d)}};</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js></script>
+</body>
+</html>
