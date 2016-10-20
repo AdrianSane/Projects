@@ -1,0 +1,270 @@
+/*
+
+    Droga5 Banner CSS
+    Simon Abrams
+    --------------------
+    sabrams@droga5.com
+
+*/
+
+
+$width: 300px;
+$height: 600px;
+
+$ctaColor: #44413d;
+
+/**********  Utilities  ***********/
+
+/* set the dimensions of your banner here */
+.dimensions {
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*  apply this class to retina sized graphics
+    be sure to change the dimensions to double the width and height of your banner's actrual dimensions */
+.retina {
+    background-size: $width $height;
+    width: $width;
+    height: $height;
+}
+
+/* centers elements horizontally */
+.center-horiz {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* centers elements vertically */
+.center-vert {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* centers elements vertically */
+.center {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+/*  apply this to initialize elements as hidden until they are needed.
+    use 'autoAlpha:1' in GSAP to show hidden elements */
+.hidden {
+    visibility: hidden;
+}
+
+.noshow {
+    display: none;
+}
+
+.comp {
+    /* link to comps here. */
+    // background: url('../images/comp1.jpg') no-repeat;
+    // width: $width;
+    // height: $height;
+    // visibility: hidden;
+}
+
+
+div {
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+/* main container element for banner */
+#banner {
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* sets up main stage clickable area */
+#hit {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+/**********  Banner Elements/Layout  ***********/
+
+.svgtext {
+    background-image: url("../images/text.svg");
+    background-size: 234px 358px;
+}
+
+#frame1 {
+    #img1-1 {
+        background-image: url('../images/img-1-1.jpg');
+        width: 353px;
+        height: 155px;
+    }
+
+    #img1-2 {
+        background-image: url('../images/img-1-2.jpg');
+        width: $width;
+        height: 403px;
+    }
+
+    #transition {
+        background-image: url("../images/transition.png");
+        background-blend-mode: overlay;
+    }
+}
+
+#frame2 {
+    background-image: url("../images/img-2.jpg");
+}
+
+#frame3 {
+    background-image: url("../images/img-3.jpg");
+    background-size: contain;
+}
+
+#bottle {
+    background-image: url("../images/img-bottle.jpg");
+    background-size: cover;
+    width: $width;
+    height: 468px;
+}
+
+
+#logo {
+    background-position: 0 -236px;
+    width: 234px;
+    height: 55px;
+}
+#logo-tagline {
+    background-position: -34px -301px;
+    width: 168px;
+    height: 12px;
+}
+
+/* copy */
+#copy1 {
+    background-position: 0 0;
+    width: 202px;
+    height: 38px;
+}
+
+#copy2 {
+    background-position: 0 -65px;
+    width: 215px;
+    height: 14px;
+}
+
+#copy3 {
+    background-position: 0 -105px;
+    width: 168px;
+    height: 40px;
+}
+
+/* legal */
+#legal {
+    top: 556px;
+    background-image: url('../images/text_legal.gif');
+    background-repeat: no-repeat;
+    width: 252px;
+    height: 28px;
+}
+
+
+
+/**********  CTA  ***********/
+
+$ctaHeight: 41px;
+#cta {
+    width: 232px;
+    height: $ctaHeight;
+    background-color: $ctaColor;
+    
+    #cta-label {
+        /*******************************/
+        /* uncomment these position settings for cta 1 */
+        background-position: 0 -166px;
+        /*******************************/
+        /* uncomment these position settings for cta 2 */
+        //background-position: 0 -196px;
+        /*******************************/
+        width: 151px;
+        height: 12px;
+        left: 51px;
+        top: 14px;
+    }
+
+    #cta-arrow {
+        background-position: 0 -334px;
+        width: 15px;
+        height: 9px;
+        left: 24px;
+        top: 16px;
+    }
+
+    .sheen {
+        width: 180px;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #cta-sheen-bg {
+        transform: skewX(-25deg);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    }
+
+    #cta-sheen {
+        transform: skewX(-20deg);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+        clip: rect(2px, 190px, 39px, 2px);
+
+    }
+}
+
+
+
+
+/* debug - comment out for production
+
+#slider {
+  width:$width;
+  margin:10px auto;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
