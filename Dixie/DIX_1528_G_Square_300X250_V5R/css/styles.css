@@ -1,0 +1,122 @@
+/*
+
+    Droga5 Banner CSS
+    Adrian Velazquez
+    --------------------
+    avelazquez@droga5.com
+
+*/
+/**********  Utilities  ***********/
+/* set the dimensions of your banner here */
+/* main container element for banner */
+#banner {
+  margin: auto;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.dimensions {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*  apply this class to retina sized graphics
+    be sure to change the dimensions to double the width and height of your banner's actrual dimensions */
+.retina {
+  background-size: 300px 250px;
+  width: 300px;
+  height: 250px;
+}
+
+#banner {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.hidden{
+opacity:0;
+}
+
+.familyContainer {
+  position: absolute;
+}
+
+
+.familyBig {
+  background-image: url(../images/familyBig.jpg);
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  transform: translate(-25%, -25%);
+}
+
+.familySmall {
+  background-image: url(../images/familySmall.jpg);
+  width: 344px;
+  height: 275px;
+  position: absolute;
+  transform: translate(-6.5%, -4%);
+}
+.familyFrame {
+  background-image: url(../images/frame.png);
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  transform: translate(-25%, -25%);
+  top:63px;
+  left:75px;
+}
+
+.txt{
+  background-image: url(../images/txt.png);
+  position: absolute;
+  width: 236px;
+  height: 103px;
+  background-size: cover;
+  z-index: 1;
+  top: 78px;
+  left: 32px;
+}
+
+.endFrameBG{
+  background-image: url(../images/endFrameBG.jpg);
+  position: absolute;
+}
+.dark{
+background-color: #000;
+width: 300px;
+height: 250px;
+position: absolute;;
+opacity: 0.2;
+}
+.plate{
+  background-image: url(../images/plate.png);
+  position: absolute;
+  width: 297px;
+  height: 192px;
+}
+
+.cta{
+  background-image: url(../images/cta.png);
+  position: absolute;
+  width: 143px;
+  height: 48px;
+  top: 190px;
+  left: 78.5px;
+}
+/* sets up main stage clickable area */
+#hit{
+  background-color: transparent;
+  cursor: pointer;
+}
