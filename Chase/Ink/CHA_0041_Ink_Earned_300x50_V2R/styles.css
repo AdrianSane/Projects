@@ -1,0 +1,136 @@
+.dimensions {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.retina {
+    background-size: calc(600px/2) calc(100px/2);
+    width:calc(600px/2);
+    height:calc(100px/2);
+}
+.center-horiz {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.hidden {
+    visibility: hidden;
+}
+.comp {
+    // link to comps here.
+}
+div {
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+}
+#banner {
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+#hit {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+/*************************************************banner elements*/
+#bg_gradient {
+    background-image: url('bg_gradient.jpg');
+}
+
+#bg {
+    background-image: url('bg.jpg');
+    width: 300px;
+    height: 50px;
+    background-size: contain;
+}
+
+#bottom_white {
+    display: block;
+    width: 104px;
+    height: 50px;
+    background-color: white;
+}
+
+#card-container {
+  width: 300px;
+  height: 50px;
+}
+
+#card {
+    background-image: url('card.png');
+    background-size: contain;
+    width: calc(296px/4);
+    height: calc(176px/4);
+}
+
+#chase_logo {
+    background-image: url('chase_logo.svg');
+    background-size: contain;
+    width: 66px;
+    height: 20px;
+}
+
+/*************************************************text*/
+#text_1 {
+    background-image: url('text_1.png');
+    background-size: calc(274px/2) calc(20px/2);
+    width: calc(274px/2);
+    height: calc(20px/2);
+    top: 20px;
+    left: -135px;
+}
+
+#text_2 {
+    background-image: url('text_2.png');
+    background-size: calc(190px/2) calc(44px/2);
+    width: calc(190px/2);
+    height: calc(44px/2);
+    top: 5px;
+    left: -115px;
+}
+
+#text_3 {
+    background-image: url('text_3.png');
+    background-size: calc(246px/2) calc(62px/2);
+    width: calc(246px/2);
+    height: calc(62px/2);
+    top: 10px;
+    left: -130px;
+}
+
+/*************************************************cta*/
+#cta {
+    width: 67px;
+    height: 18px;
+    background-color: #2ba854;
+    border-radius: 4px;
+    left: 225px;
+    top: 26px;
+}
+
+#cta_label {
+    background-image: url('text_cta.png');
+    background-size: calc(80px/2) calc(16px/2);
+    width: calc(80px/2);
+    height: calc(16px/2);
+    position: relative;
+    left: 14px;
+    top: 5px;
+}
+
+/*************************************************replay*/
+#replay {
+    background-image: url('replay.svg');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    width: 10px;
+    height: 12px;
+    left: 8px;
+    top: 8px;
+}

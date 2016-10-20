@@ -1,0 +1,136 @@
+.dimensions {
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.retina {
+    background-size: calc(1456px/2) calc(180px/2);
+    width:calc(1456px/2);
+    height:calc(180px/2);
+}
+.center-horiz {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.hidden {
+    visibility: hidden;
+}
+.comp {
+    // link to comps here.
+}
+div {
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+}
+#banner {
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+#hit {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+/*************************************************banner elements*/
+#bg_gradient {
+    background-image: url('bg_gradient.jpg');
+}
+
+#bg {
+    background-image: url('bg.jpg');
+    width: 679px;
+    height: 90px;
+    background-size: contain;
+}
+
+#bottom_white {
+    display: block;
+    width: 278px;
+    height: 90px;
+    background-color: white;
+}
+
+#card-container {
+  width: 728px;
+  height: 90px;
+}
+
+#card {
+    background-image: url('card.png');
+    background-size: contain;
+    width: calc(284px/2);
+    height: calc(166px/2);
+}
+
+#chase_logo {
+    background-image: url('chase_logo.svg');
+    background-size: contain;
+    width: 139px;
+    height: 43px;
+}
+
+/*************************************************text*/
+#text_1 {
+    background-image: url('text_1.png');
+    background-size: calc(540px/2) calc(130px/2);
+    width: calc(540px/2);
+    height: calc(130px/2);
+    top: 10px;
+    left: -370px;
+}
+
+#text_2 {
+    background-image: url('text_2.png');
+    background-size: calc(470px/2) calc(80px/2);
+    width: calc(470px/2);
+    height: calc(80px/2);
+    top: 10px;
+    left: -370px;
+}
+
+#text_3 {
+    background-image: url('text_3.png');
+    background-size: calc(578px/2) calc(128px/2);
+    width: calc(578px/2);
+    height: calc(128px/2);
+    top: 10px;
+    left: -370px;
+}
+
+/*************************************************cta*/
+#cta {
+    width: 114px;
+    height: 32px;
+    background-color: #2ba854;
+    border-radius: 4px;
+    left: 578px;
+    top: 50px;
+}
+
+#cta_label {
+    background-image: url('text_cta.png');
+    background-size: calc(168px/2) calc(24px/2);
+    width: calc(168px/2);
+    height: calc(24px/2);
+    position: relative;
+    left: 17px;
+    top: 10px;
+}
+
+/*************************************************replay*/
+#replay {
+    background-image: url('replay.svg');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    width: 12px;
+    height: 14px;
+    left: 10px;
+    top: 11px;
+}
