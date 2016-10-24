@@ -1,3 +1,1 @@
-'use strict';
-
-document.write('<script src="' + (document.location.protocol === 'https:' ? 'https://secure-' : 'http://') + 'ds.serving-sys.com/BurstingScript/EBLoader.js"><\/script>');
+"use strict";document.write('<script src="'+("https:"===document.location.protocol?"https://secure-":"http://")+'ds.serving-sys.com/BurstingScript/EBLoader.js"></script>');
