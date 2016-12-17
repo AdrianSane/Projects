@@ -1,0 +1,106 @@
+/*
+    Droga5 Banner CSS
+    Adrian Velazquez
+    --------------------
+    avelazquez@droga5.com
+*/
+/**********  Utilities  ***********/
+/* set the dimensions of your banner here */
+/* main container element for banner */
+#banner {
+  margin: auto;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid black;
+}
+.dimensions {
+  width: 160px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*  apply this class to retina sized graphics
+    be sure to change the dimensions to double the width and height of your banner's actrual dimensions */
+.retina {
+  background-size: 300px 600px;
+  width: 160px;
+  height: 600px;
+}
+#banner {
+  width: 160px;
+  height: 600px;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+}
+.hidden{
+opacity:0;
+}
+.familyContainer {
+  position: absolute;
+
+}
+.familyFrame {
+  background-image: url(../images/frame.png);
+  width: 160px;
+  height: 600px;
+  position: absolute;
+  transform: translate(-25%, -25%);
+  top:-667px;
+  left:6px;
+}
+.txt{
+  background-image: url(../images/txt.png);
+  position: absolute;
+  width: 133px;
+  height: 133px;
+  background-size: cover;
+  z-index: 1;
+  top: 126px;
+  left: 13px;
+}
+.endFrameBG{
+  background-image: url(../images/endFrameBG.jpg);
+  position: absolute;
+}
+.familyBigFrame{
+  background-image: url(../images/familyBigFrame.jpg);
+  position: absolute;
+  width:812px;
+  height:640px;
+  top:0px;
+  left:0px;
+  transform: translate(-43%, 0%);
+}
+.dark{
+background-color: #000;
+width: 160px;
+height: 600px;
+position: absolute;
+opacity: 0.2;
+}
+.plate{
+  background-image: url(../images/plate.png);
+  position: absolute;
+  width: 338px;
+  height: 338px;
+}
+.cta{
+  background-image: url(../images/cta.png);
+  position: absolute;
+  width: 134px;
+  height: 45px;
+  top: 480px;
+  left: 13px;
+}
+/* sets up main stage clickable area */
+#hit{
+  background-color: transparent;
+  cursor: pointer;
+}

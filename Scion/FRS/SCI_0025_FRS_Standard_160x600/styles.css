@@ -1,0 +1,190 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 160px;
+    height: 600px;
+    background-color: #fff;
+    margin: 100px auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+#lines{
+border-style: solid;
+border-width: 1px;
+border-color: #000;
+width: 158px;
+height: 598px;
+background-color: rgba(0,0,0,0);
+position: absolute;
+}
+#banner {
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+/*.ref {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('ref5.jpg') no-repeat;
+}
+*/
+
+
+/* logos */
+
+.logo {
+    position: absolute;
+    background: url('text-sprites-opt.png') no-repeat;
+    background-position: -122px -287px;
+    width: 50px;
+    height: 35px;
+    left: 55px;
+    top: 10px;
+}
+
+
+
+/* panels */
+.background {
+    position: absolute;
+    width: 160px;
+    height: 600px;
+}
+
+
+#mask1, #mask2, #mask3, #mask4, #mask5 {
+    width: 600px;
+    height: 725px;
+    position: absolute;
+    clip: rect(0, 600px, 725px, 0);
+    background-color: pink;
+}
+.maskOutline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 725px;
+    background-color: rgba(255, 255, 255, 0);
+    border-right: 4px solid #dbae10;
+}
+
+#bg1 {
+    background: url('bg-1.jpg') no-repeat;
+    background-size: contain;
+}
+
+#bg2 {
+    background: url('bg-2.jpg') no-repeat;
+    background-size: contain;
+}
+
+#bg3 {
+    background: url('bg-3.jpg') no-repeat;
+    background-size: contain;
+}
+
+#bg4 {
+    background: url('bg-4.jpg') no-repeat;
+    background-size: contain;
+}
+
+#bg5 {
+    background: url('bg-5.jpg') no-repeat;
+    background-size: contain;
+}
+
+#bg6 {
+    background: url('bg-6.jpg') no-repeat;
+    background-size: contain;
+}
+
+
+/* text */
+
+.sprites {
+    background: url('text-sprites-opt.png') no-repeat;
+    display: block;
+}
+
+#text1, #text2, #text3, #text4, #text5, #endFrameText, #textSubhead {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+#text1 {
+    width: 151.5px;
+    height: 172.5px;
+    top: 115px;
+    background-position: 0px -2px;
+}
+
+#text2 {
+    width: 112px;
+    height: 82px;
+    top: 390px;
+    background-position: -16px -191px;
+}
+/*
+#text3 {
+    width: 195px;
+    height: 77px;
+    top: 87px;
+    background-position: -6px -231px;
+}
+*/
+#text4 {
+    width: 135px;
+    height: 53px;
+    top: 273.5px;
+    background-position: -155px -108px;
+}
+
+#text5 {
+    width: 88px;
+    height: 116px;
+    top: 242px;
+    background-position: -174px -180px;
+}
+
+#endFrameText {
+    position: absolute;
+    width: 144px;
+    height: 261px;
+    top: 115px;
+    background-position: -309px -8px;
+}
+
+#textSubhead {
+    position: absolute;
+    width: 145px;
+    height: 19px;
+    top: 387px;
+    background-position: -307px -276px;
+}
+
+
+/* end frame */
+
+.cta {
+    position: absolute;
+    width: 143px;
+    height: 48px;
+    left: 9px;
+    top: 534px;
+    background: url('text-sprites-opt.png') no-repeat;
+    background-position: -307px -300px;
+    visibility: hidden;
+}

@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 320px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    background-color: #fff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+#banner {
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+}
+/* logos */
+.logo-big, .logo-small {
+    position: absolute;
+    background: url('logo-scion.svg') no-repeat;
+}
+.logo-big {
+    width: 50px;
+    height: 34px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 8px;
+}
+.logo-small {
+    width: 50px;
+    height: 34px;
+    left: 10px;
+    top: 8px;
+}
+/* panels */
+.white, .blue{
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    transform: skew(-20deg);
+    margin-left: -200px;
+    left: 50%;
+}
+.blue {
+/*background-color: #1d4e8f;*/
+background: #1d4e8f; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #2b6bce 0%, #1d4e8f 80%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #2b6bce 0%,#1d4e8f 80%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #2b6bce 0%,#1d4e8f 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b6bce', endColorstr='#1d4e8f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.white {
+/*background-color: #d9272e;*/
+background: #d9272e; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  white 0%, #e6e6e6 80%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  white 0%,#e6e6e6 80%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  white 0%,#e6e6e6 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#e6e6e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+/* text */
+.clipped {
+  /*  -webkit-clip-path: url("#clipPolygon");
+    clip-path: url("#clipPolygon");*/
+    clip: rect(0px, 480px, 250px, 0px);
+    /*background-color: rgba(255, 0, 0, 0.2);*/
+}
+#text {
+    background: url('txt5.svg') no-repeat;
+    position: absolute;
+    margin: 0 auto;
+    width: 151px;
+    height: 32px;
+    top: 12px;
+    left: -151px;
+}
+/* car */
+.car-body, .wheel, .shadow, #car1 {
+    background: url('sprites.png') no-repeat;
+}
+/* iM */
+#iM {
+    position: absolute;
+    width: 103px;
+    height: 37px;
+    left: -105px;
+    top: 7px;
+}
+#iM .car-body {
+    width: 103px;
+    height: 37px;
+    background-position: 0 -11px;
+}
+#iM .wheel {
+    position: absolute;
+    background-position: -104px -7px;
+    width: 15px;
+    height: 15px;
+    top: 20px;
+    /*background-color: red;*/
+}
+#iM .rear {
+    left: 11px;
+}
+#iM .front {
+    left: 75px;
+}
+.shadow {
+    position: absolute;
+    background-position: 0 0;
+    width: 103px;
+    height: 6px;
+    left: 0;
+    top: 30px;
+    opacity: 0.6;
+    background-blend-mode: multiply;
+}
+.cta {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 206px;
+    top: 10px;
+    background-color: #1d4e8f;
+    border-radius: 4px;
+}
+.cta-label {
+    position: relative;
+    background: url('txt-cta.svg') no-repeat;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 7px;
+    width: 89px;
+    height: 13px;
+}
+#endFrame {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    visibility: hidden;
+}
+/* GenOne logo */
+.genone {
+    position: absolute;
+    background: url('logo-genone.svg') no-repeat;
+    width: 106px;
+    height: 30px;
+    left: 70px;
+    margin: 0 auto;
+    top: 10px;
+}
+/* disclaimer */
+#disclaimer-btn {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 0.4375em; /* 7pt */
+    text-decoration: underline;
+    color: #4f4f4f;
+    left: 267px;
+    top: 35px;
+    z-index: 1000;
+}
+#disclaimer-panel{
+    position: absolute;
+    background-color: #ccc;
+    width: 320px;
+    height: 55px;
+    top: 50px;
+    overflow: scroll;
+    z-index: 2000;
+    padding-bottom: 5px;
+}
+#disclaimer-panel p {
+    margin: 0;
+    padding: 0px 5px 5px 15px;
+    font-family: sans-serif;
+    font-size: 8px;
+}
+#disclaimer-x {
+    width: 20px;
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: bolder;
+    padding: 5px;
+}

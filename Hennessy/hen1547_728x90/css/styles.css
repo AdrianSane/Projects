@@ -1,0 +1,182 @@
+/*
+
+    Droga5 Banner CSS
+    Simon Abrams
+    --------------------
+    sabrams@droga5.com
+
+*/
+/**********  Utilities  ***********/
+/* set the dimensions of your banner here */
+.dimensions {
+  width: 728px;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*  apply this class to retina sized graphics
+    be sure to change the dimensions to double the width and height of your banner's actrual dimensions */
+.retina {
+  background-size: 728px 90px;
+  width: 728px;
+  height: 90px; }
+
+/* centers elements horizontally */
+.center-horiz {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* centers elements vertically */
+.center-vert {
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+/* centers elements vertically */
+.center {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+/*  apply this to initialize elements as hidden until they are needed.
+    use 'autoAlpha:1' in GSAP to show hidden elements */
+.hidden {
+  visibility: hidden; }
+
+.noshow {
+  display: none; }
+
+.comp {
+  /* link to comps here. */ }
+
+div {
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  overflow: hidden; }
+
+/* main container element for banner */
+#banner {
+  margin: auto;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid black; }
+
+/* sets up main stage clickable area */
+#hit {
+  background-color: transparent;
+  cursor: pointer; }
+
+/**********  Banner Elements/Layout  ***********/
+.svgtext {
+  background-image: url("../images/text.svg");
+  background-size: 359px 289px; }
+
+#frame1 #img1-1 {
+  background-image: url("../images/img-1-1.jpg");
+  width: 419px;
+  height: 90px; }
+#frame1 #img1-2 {
+  background-image: url("../images/img-1-2.jpg");
+  width: 399px;
+  height: 90px; }
+#frame1 #transition {
+  background-image: url("../images/transition.png");
+  background-blend-mode: overlay; }
+
+#frame2 {
+  background-image: url("../images/img-2.jpg"); }
+
+#frame3 {
+  background-image: url("../images/img-3.jpg");
+  width: 830px;
+  height: 251px; }
+
+#bottle {
+  background-image: url("../images/img-bottle.jpg");
+  background-size: cover;
+  width: 162px;
+  height: 359px; }
+
+#logo {
+  background-position: 0 -200px;
+  width: 171px;
+  height: 41px; }
+
+#logo-tagline {
+  background-position: -25px -248px;
+  width: 178px;
+  height: 10px; }
+
+/* copy */
+#copy1 {
+  background-position: 0 0;
+  width: 359px;
+  height: 14px; }
+
+#copy2 {
+  background-position: 0 -40px;
+  width: 203px;
+  height: 14px; }
+
+#copy3 {
+  background-position: 0 -80px;
+  width: 325px;
+  height: 14px; }
+
+/* legal */
+#legal {
+  background-image: url("../images/text_legal.gif");
+  background-repeat: no-repeat;
+  width: 322px;
+  height: 17px;
+  left: 368px;
+  top: 60px; }
+
+/**********  CTA  ***********/
+#cta {
+  width: 194px;
+  height: 34px;
+  background-color: #44413d;
+  left: 439px;
+  top: 17px; }
+  #cta #cta-label {
+    /*******************************/
+    /* uncomment these position settings for cta 1 */
+    background-position: 0 -120px;
+    /*******************************/
+    /* uncomment these position settings for cta 2 */
+    /*******************************/
+    width: 154px;
+    height: 10px;
+    left: 42px;
+    top: 12px; }
+  #cta #cta-arrow {
+    background-position: 0 -280px;
+    width: 13px;
+    height: 7px;
+    left: 20px;
+    top: 13px; }
+  #cta .sheen {
+    width: 180px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1); }
+  #cta #cta-sheen-bg {
+    transform: skewX(-25deg);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)); }
+  #cta #cta-sheen {
+    transform: skewX(-20deg);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    clip: rect(2px, 190px, 32px, 2px); }
+
+/* debug - comment out for production */
+#slider {
+  width: 728px;
+  margin: 10px auto; }

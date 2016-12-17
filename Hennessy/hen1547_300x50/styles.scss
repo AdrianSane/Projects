@@ -1,0 +1,241 @@
+// compileExpanded: css/styles.css
+/*
+
+    Droga5 Banner CSS
+    Simon Abrams
+    --------------------
+    sabrams@droga5.com
+
+*/
+
+
+$width: 300px;
+$height: 50px;
+
+$ctaColor: #44413d;
+
+/**********  Utilities  ***********/
+
+/* set the dimensions of your banner here */
+.dimensions {
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*  apply this class to retina sized graphics
+    be sure to change the dimensions to double the width and height of your banner's actrual dimensions */
+.retina {
+    background-size: $width $height;
+    width: $width;
+    height: $height;
+}
+
+/* centers elements horizontally */
+.center-horiz {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* centers elements vertically */
+.center-vert {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* centers elements vertically */
+.center {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+/*  apply this to initialize elements as hidden until they are needed.
+    use 'autoAlpha:1' in GSAP to show hidden elements */
+.hidden {
+    visibility: hidden;
+}
+
+.noshow {
+    display: none;
+}
+
+.comp {
+    /* link to comps here. */
+    // background: url('../images/comp1.jpg') no-repeat;
+    // width: $width;
+    // height: $height;
+    // visibility: hidden;
+}
+
+div {
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+/* main container element for banner */
+#banner {
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* sets up main stage clickable area */
+#hit {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+/**********  Banner Elements/Layout  ***********/
+
+.svgtext {
+    background-image: url("../images/mobile-sprite.png");
+    background-size: 226px 188px;
+}
+
+#frame1 {
+    #img1-1 {
+        background-image: url('../images/img-1-1.jpg');
+        width: 300px;
+        height: 50px;
+        background-size: cover;
+    }
+/*
+    #img1-2 {
+        background-image: url('../images/img-1-2.jpg');
+        width: $width;
+        height: 113px;
+    }
+
+    #transition {
+        background-image: url("../images/transition.png");
+        background-blend-mode: overlay;
+    }
+*/
+}
+
+#frame2 {
+    background-image: url("../images/img-2.jpg");
+}
+/*
+#frame3 {
+    background-image: url("../images/img-3.jpg");
+    background-size: contain;
+}
+*/
+#bottle {
+    background-image: url("../images/img-bottle.jpg");
+    background-size: contain;
+    /*width: calc(234px/2);
+    height: calc(386px/2);*/
+    width: 234px;
+    height: 386px;
+}
+
+#logo {
+    background-position: -66px -137px;
+    width: 96px;
+    height: 25px;
+}
+#logo-tagline {
+    background-position: -79px -164px;
+    width: 72px;
+    height: 6px;
+}
+
+/* copy */
+#copy1 {
+    background-position: 0px 0px;
+    width: 216px;
+    height: 11px;
+}
+
+#copy2 {
+    background-position: -42px -31px;
+    width: 142px;
+    height: 11px;
+}
+
+#copy3 {
+    background-position: -44px -62px;
+    width: 136px;
+    height: 8px;
+}
+
+/* legal */
+#legal {
+    top: 33px;
+    left: 118px;
+    background-image: url('../images/text_legal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(264px/2);
+    height: calc(16px/2);
+}
+
+
+
+/**********  CTA  ***********/
+#cta {
+    width: 104px;
+    height: 18px;
+    background-color: $ctaColor;
+
+    #cta-label {
+        /*******************************/
+        /* uncomment these position settings for cta 1 */
+        background-position: -78px -93px;
+        width: 69px;
+        /*******************************/
+        /* uncomment these position settings for cta 2 */
+        //background-position: -5px -179px;
+        //width: 73px;
+        /*******************************/
+        height: 6px;
+        left: 25px;
+        top: 7px;
+    }
+
+    #cta-arrow {
+        background-position: -109px -184px;
+        width: 8px;
+        height: 4px;
+        left: 10px;
+        top: 7px;
+    }
+
+    .sheen {
+        width: 180px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #cta-sheen-bg {
+        transform: skewX(-25deg);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    }
+
+    #cta-sheen {
+        transform: skewX(-20deg);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+        clip: rect(2px, 190px, 32px, 2px);
+
+    }
+}

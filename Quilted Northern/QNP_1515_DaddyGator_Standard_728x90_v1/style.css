@@ -1,0 +1,52 @@
+html,
+body,
+div,
+a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+body{
+    width: 728px;
+}
+#gatorBanner{
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+    background-image: url(bg.jpg);
+}
+.txt{
+  width: 728px;
+  height: 80px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.txt1, .txt2, .txt3, .txt4{
+  position: absolute;
+}
+.txt1{
+margin-left: 260px;
+}
+.txt2{
+margin-left: 226px;
+}
+.txt3{
+margin-left: 198.5px;
+}
+.txt4{
+margin-left: 269px;
+}
+.logo{
+margin: 10px 0px 0px 293px;
+position: absolute;
+}
+.cta{
+  margin: 50px 0px 0px 475px;
+  position: absolute;
+}
