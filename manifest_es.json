@@ -1,0 +1,351 @@
+{
+    "client": "IMG",
+    "project": "IMG Academy Summer Camp Espanol",
+    "concepts": [
+
+        {
+            "concept_name":"All Sports | Re-targeting Emotional | Version A",
+            "concept_base_url": "./banners/re_targeting/spanish/all-sports_emotional/version-a/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Emotional 300x600 A",
+                    "banner_base_name":"WME1514_retargeting_emo_300x600_es"
+                },{
+                    "banner_name": "All Sports | Emotional 300x250 A",
+                    "banner_base_name":"WME1514_retargeting_emo_300x250_es"
+                },{
+                    "banner_name": "All Sports | Emotional 160x600 A",
+                    "banner_base_name":"WME1514_retargeting_emo_160x600_es"
+                },{
+                    "banner_name": "All Sports | Emotional 728x90 A",
+                    "banner_base_name":"WME1514_retargeting_emo_728x90_es"
+                }
+            ]
+        },
+
+        {
+            "concept_name":"All Sports | Re-targeting Emotional | Version B",
+            "concept_base_url": "./banners/re_targeting/spanish/all-sports_emotional/version-b/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Emotional 300x600 B",
+                    "banner_base_name":"WME1514_retargeting_emo_300x600_es_alt"
+                },{
+                    "banner_name": "All Sports | Emotional 300x250 B",
+                    "banner_base_name":"WME1514_retargeting_emo_300x250_es_alt"
+                },{
+                    "banner_name": "All Sports | Emotional 160x600 B",
+                    "banner_base_name":"WME1514_retargeting_emo_160x600_es_alt"
+                },{
+                    "banner_name": "All Sports | Emotional 728x90 B",
+                    "banner_base_name":"WME1514_retargeting_emo_728x90_es_alt"
+                }
+            ]
+        },
+
+        {
+            "concept_name":"All Sports | Re-targeting Functional | Version A",
+            "concept_base_url": "./banners/re_targeting/spanish/all-sports_functional/version-a/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Functional 300x600 A",
+                    "banner_base_name":"WME1514_retargeting_func_300x600_es"
+                },{
+                    "banner_name": "All Sports | Functional 300x250 A",
+                    "banner_base_name":"WME1514_retargeting_func_300x250_es"
+                },{
+                    "banner_name": "All Sports | Functional 160x600 A",
+                    "banner_base_name":"WME1514_retargeting_func_160x600_es"
+                },{
+                    "banner_name": "All Sports | Functional 728x90 A",
+                    "banner_base_name":"WME1514_retargeting_func_728x90_es"
+                }
+            ]
+        },
+
+        {
+            "concept_name":"All Sports | Re-targeting Functional | Version B",
+            "concept_base_url": "./banners/re_targeting/spanish/all-sports_functional/version-b/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Functional 300x600 B",
+                    "banner_base_name":"WME1514_retargeting_func_300x600_es_alt"
+                },{
+                    "banner_name": "All Sports | Functional 300x250 B",
+                    "banner_base_name":"WME1514_retargeting_func_300x250_es_alt"
+                },{
+                    "banner_name": "All Sports | Functional 160x600 B",
+                    "banner_base_name":"WME1514_retargeting_func_160x600_es_alt"
+                },{
+                    "banner_name": "All Sports | Functional 728x90 B",
+                    "banner_base_name":"WME1514_retargeting_func_728x90_es_alt"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "concept_name":"Baseball | Functional",
+            "concept_base_url": "./banners/re_targeting/spanish/baseball_functional/",
+            "banners": [
+                {
+                    "banner_name": "baseball | Functional 300x600",
+                    "banner_base_name":"WME1514_retargeting_baseball_functional_300x600_es"
+                },
+                {
+                    "banner_name": "baseball | Functional 1600x600",
+                    "banner_base_name":"WME1514_retargeting_baseball_functional_1600x600_es"
+                },
+                {
+                    "banner_name": "baseball | Functional 300x250",
+                    "banner_base_name":"WME1514_retargeting_baseball_functional_300x250_es"
+                },
+                {
+                    "banner_name": "baseball | Functional 728x90",
+                    "banner_base_name":"WME1514_retargeting_baseball_functional_728x90_es"
+                }
+            ]
+        },
+
+        {
+            "concept_name":"Baseball | Emotional",
+            "concept_base_url": "./banners/re_targeting/spanish/baseball_emotional/",
+            "banners": [
+                {
+                    "banner_name": "baseball | Emotional 300x600",
+                    "banner_base_name":"WME1514_retargeting_baseball_emotional_300x600_es"
+                },
+                {
+                    "banner_name": "baseball | Emotional 160x600",
+                    "banner_base_name":"WME1514_retargeting_baseball_emotional_160x600_es"
+                },
+                {
+                    "banner_name": "baseball | Emotional 300x250",
+                    "banner_base_name":"WME1514_retargeting_baseball_emotional_300x250_es"
+                },
+                {
+                    "banner_name": "baseball | Emotional 728x90",
+                    "banner_base_name":"WME1514_retargeting_baseball_emotional_728x90_es"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+
+        {
+            "concept_name":"Tennis | Functional",
+            "concept_base_url": "./banners/re_targeting/spanish/tennis_functional/",
+            "banners": [
+                {
+                    "banner_name": "tennis | Functional 300x600",
+                    "banner_base_name":"WME1514_retargeting_tennis_functional_300x600_es"
+                },
+                {
+                    "banner_name": "tennis | Functional 160x600",
+                    "banner_base_name":"WME1514_retargeting_tennis_functional_160x600_es"
+                },
+                {
+                    "banner_name": "tennis | Functional 300x250",
+                    "banner_base_name":"WME1514_retargeting_tennis_functional_300x250_es"
+                },
+                {
+                    "banner_name": "tennis | Functional 728x90",
+                    "banner_base_name":"WME1514_retargeting_tennis_functional_728x90_es"
+                }
+            ]
+        },
+
+
+        {
+            "concept_name":"Tennis | Emotional",
+            "concept_base_url": "./banners/re_targeting/spanish/tennis_emotional/",
+            "banners": [
+                {
+                    "banner_name": "tennis | Emotional 300x600",
+                    "banner_base_name":"WME1514_retargeting_tennis_emotional_300x600_es"
+                },
+                {
+                    "banner_name": "tennis | Emotional 160x600",
+                    "banner_base_name":"WME1514_retargeting_tennis_emotional_160x600_es"
+                },
+                {
+                    "banner_name": "tennis | Emotional 300x250",
+                    "banner_base_name":"WME1514_retargeting_tennis_emotional_300x250_es"
+                },
+                {
+                    "banner_name": "tennis | Emotional 728x90",
+                    "banner_base_name":"WME1514_retargeting_tennis_emotional_728x90_es"
+                }
+            ]
+        },
+
+
+
+
+        {
+            "concept_name":"Basketball | Functional",
+            "concept_base_url": "./banners/re_targeting/spanish/basketball_functional/",
+            "banners": [
+                {
+                    "banner_name": "basketball | Functional 300x600",
+
+                    "banner_base_name":"WME1514_retargeting_func_300x600_es"
+                },
+                {
+                    "banner_name": "basketball | Functional 160x600",
+                    "banner_base_name":"WME1514_retargeting_func_160x600_es"
+                },
+                {
+                    "banner_name": "basketball | Functional 300x250",
+                    "banner_base_name":"WME1514_retargeting_func_300x250_es"
+                },
+                {
+                    "banner_name": "basketball | Functional 728x90",
+                    "banner_base_name":"WME1514_retargeting_func_728x90_es"
+
+                }
+            ]
+        },
+
+        {
+            "concept_name":"Basketball | Emotional",
+            "concept_base_url": "./banners/re_targeting/spanish/basketball_emotional/",
+            "banners": [
+                {
+                    "banner_name": "basketball | Emotional 300x600",
+
+                    "banner_base_name":"WME1514_retargeting_emo_300x600_es"
+                },
+                {
+                    "banner_name": "basketball | Emotional 160x600",
+                    "banner_base_name":"WME1514_retargeting_emo_160x600_es"
+                },
+                {
+                    "banner_name": "basketball | Emotional 300x250",
+                    "banner_base_name":"WME1514_retargeting_emo_300x250_es"
+                },
+                {
+                    "banner_name": "basketball | Emotional 728x90",
+                    "banner_base_name":"WME1514_retargeting_emo_728x90_es"
+
+                }
+            ]
+        },
+
+
+
+
+        {
+            "concept_name":"Golf | Functional",
+            "concept_base_url": "./banners/re_targeting/spanish/golf_functional/",
+            "banners": [
+                {
+                    "banner_name": "golf | Functional 300x600",
+                    "banner_base_name":"WME1514_retargeting_golf_functional_300x600_es"
+                },
+                {
+                    "banner_name": "golf | Functional 160x600",
+                    "banner_base_name":"WME1514_retargeting_golf_functional_160x600_es"
+                },
+                {
+                    "banner_name": "golf | Functional 300x250",
+                    "banner_base_name":"WME1514_retargeting_golf_functional_300x250_es"
+                },
+                {
+                    "banner_name": "golf | Functional 728x90",
+                    "banner_base_name":"WME1514_retargeting_golf_functional_3728x90_es"
+                }
+            ]
+        },
+
+        {
+            "concept_name":"Golf | Emotional",
+            "concept_base_url": "./banners/re_targeting/spanish/golf_emotional/",
+            "banners": [
+                {
+                    "banner_name": "golf | Emotional 300x600",
+                    "banner_base_name":"WME1514_retargeting_golf_emotional_300x600_es"
+                },
+                {
+                    "banner_name": "golf | Emotional 160x600",
+                    "banner_base_name":"WME1514_retargeting_golf_emotional_160x600_es"
+                },
+                {
+                    "banner_name": "golf | Emotional 300x250",
+                    "banner_base_name":"WME1514_retargeting_golf_emotional_300x250_es"
+                },
+                {
+                    "banner_name": "golf | Emotional 728x90",
+                    "banner_base_name":"WME1514_retargeting_golf_emotional_728x90_es"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "concept_name":"Soccer | Functional",
+            "concept_base_url": "./banners/re_targeting/spanish/soccer_functional/",
+            "banners": [
+                {
+                    "banner_name": "soccer | Functional 300x600",
+                    "banner_base_name":"WME1514_retargeting_soccer_functional_300x600_es"
+                },
+                {
+                    "banner_name": "soccer | Functional 160x600",
+                    "banner_base_name":"WME1514_retargeting_soccer_functional_160x600_es"
+                },
+                {
+                    "banner_name": "soccer | Functional 300x250",
+                    "banner_base_name":"WME1514_retargeting_soccer_functional_300x250_es"
+                },
+                {
+                    "banner_name": "soccer | Functional 728x90",
+                    "banner_base_name":"WME1514_retargeting_soccer_functional_728x90_es"
+                }
+            ]
+        },
+
+        {
+            "concept_name":"Soccer | Emotional",
+            "concept_base_url": "./banners/re_targeting/spanish/soccer_emotional/",
+            "banners": [
+                {
+                    "banner_name": "soccer | Emotional 300x600",
+                    "banner_base_name":"WME1514_retargeting_soccer_emotional_300x600_es"
+                },
+                {
+                    "banner_name": "soccer | Emotional 160x600",
+                    "banner_base_name":"WME1514_retargeting_soccer_emotional_160x600_es"
+                },
+                {
+                    "banner_name": "soccer | Emotional 300x250",
+                    "banner_base_name":"WME1514_retargeting_soccer_emotional_300x250_es"
+                },
+                {
+                    "banner_name": "soccer | Emotional 728x90",
+                    "banner_base_name":"WME1514_retargeting_soccer_emotional_728x90_es"
+                }
+            ]
+        }
+
+
+    ]
+}

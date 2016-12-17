@@ -1,0 +1,107 @@
+{
+    "client": "IMG",
+    "project": "IMG Academy Summer Camp",
+    "concepts": [
+
+        {
+            "concept_name":"Mid-Funnel - All Sports | Emotional | Version A",
+            "concept_base_url": "./banners/mid_funnel/all-sports_emotional/version-a/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Emotional 300x600 A",
+                    "banner_base_name":"WME1514_midfunnel_emo_300x600_en"
+                },
+                {
+                    "banner_name": "All Sports | Emotional 300x250 A",
+                    "banner_base_name":"WME1514_midfunnel_emo_300x250_en"
+                },
+                {
+                    "banner_name": "All Sports | Emotional 160x600 A",
+                    "banner_base_name":"WME1514_midfunnel_emo_160x600_en"
+                },
+                {
+                    "banner_name": "All Sports | Emotional 728x90 A",
+                    "banner_base_name":"WME1514_midfunnel_emo_728x90_en"
+                }
+            ]
+        },
+
+
+
+
+        {
+            "concept_name":"Mid-Funnel - All Sports | Emotional | Version B",
+            "concept_base_url": "./banners/mid_funnel/all-sports_emotional/version-b/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Emotional 300x600 B",
+                    "banner_base_name":"WME1514_midfunnel_emo_300x600_en_alt"
+                },
+                {
+                    "banner_name": "All Sports | Emotional 300x250 B",
+                    "banner_base_name":"WME1514_midfunnel_emo_300x250_en_alt"
+                },
+                {
+                    "banner_name": "All Sports | Emotional 160x600 B",
+                    "banner_base_name":"WME1514_midfunnel_emo_160x600_en_alt"
+                },
+                {
+                    "banner_name": "All Sports | Emotional 728x90 B",
+                    "banner_base_name":"WME1514_midfunnel_emo_728x90_en_alt"
+                }
+            ]
+        },
+
+
+        {
+            "concept_name":"Mid-Funnel - All Sports | Functional | Version A",
+            "concept_base_url": "./banners/mid_funnel/all-sports_functional/version-a/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Functional 300x600 A",
+                    "banner_base_name":"WME1514_midfunnel_func_300x600_en"
+                },
+                {
+                    "banner_name": "All Sports | Functional 300x250 A",
+                    "banner_base_name":"WME1514_midfunnel_func_300x250_en"
+                },
+                {
+                    "banner_name": "All Sports | Functional 160x600 A",
+                    "banner_base_name":"WME1514_midfunnel_func_160x600_en"
+                },
+                {
+                    "banner_name": "All Sports | Functional 728x90 A",
+                    "banner_base_name":"WME1514_midfunnel_func_728x90_en"
+                }
+            ]
+        },
+
+
+
+        {
+            "concept_name":"Mid-Funnel - All Sports | Functional | Version B",
+            "concept_base_url": "./banners/mid_funnel/all-sports_functional/version-b/",
+            "banners": [
+                {
+                    "banner_name": "All Sports | Functional 300x600 B",
+                    "banner_base_name":"WME1514_midfunnel_func_300x600_en_alt"
+                },
+                {
+                    "banner_name": "All Sports | Functional 300x250 B",
+                    "banner_base_name":"WME1514_midfunnel_func_300x250_en_alt"
+                },
+                {
+                    "banner_name": "All Sports | Functional 160x600 B",
+                    "banner_base_name":"WME1514_midfunnel_func_160x600_en_alt"
+                },
+                {
+                    "banner_name": "All Sports | Functional 728x90 B",
+                    "banner_base_name":"WME1514_midfunnel_func_728x90_en_alt"
+                }
+            ]
+        }
+
+
+
+    ]
+}

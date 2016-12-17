@@ -1,0 +1,236 @@
+{
+    "client": "IMG",
+    "project": "IMG Academy Summer Camp Japanese",
+    "concepts": [
+
+      {
+          "concept_name":"All Sports | Emotional | Version A",
+          "concept_base_url": "./banners/re_targeting/japanese/all-sports_emotional/version-a/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Emotional 300x600 A",
+                  "banner_base_name":"WME1514_emo_300x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Emotional 160x600 A",
+                  "banner_base_name":"WME1514_emo_160x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Emotional 300x250 A",
+                  "banner_base_name":"WME1514_emo_300x250_jp"
+              },
+              {
+                  "banner_name": "All Sports | Emotional 728x90 A",
+                  "banner_base_name":"WME1514_emo_728x90_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"All Sports | Emotional | Version B",
+          "concept_base_url": "./banners/re_targeting/japanese/all-sports_emotional/version-b/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Emotional 300x600 B",
+                  "banner_base_name":"WME1514_emo_300x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Emotional 160x600 B",
+                  "banner_base_name":"WME1514_emo_160x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Emotional 300x250 B",
+                  "banner_base_name":"WME1514_emo_300x250_jp"
+              },
+              {
+                  "banner_name": "All Sports | Emotional 728x90 B",
+                  "banner_base_name":"WME1514_emo_728x90_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"All Sports | Functional | Version A",
+          "concept_base_url": "./banners/re_targeting/japanese/all-sports_functional/version-a/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Functional 300x600 A",
+                  "banner_base_name":"WME1514_func_300x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Functional 160x600 A",
+                  "banner_base_name":"WME1514_func_160x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Functional 300x250 A",
+                  "banner_base_name":"WME1514_func_300x250_jp"
+              },
+              {
+                  "banner_name": "All Sports | Functional 728x90 A",
+                  "banner_base_name":"WME1514_func_728x90_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"All Sports | Functional | Version B",
+          "concept_base_url": "./banners/re_targeting/japanese/all-sports_functional/version-b/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Functional 300x600 B",
+                  "banner_base_name":"WME1514_func_300x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Functional 160x600 B",
+                  "banner_base_name":"WME1514_func_160x600_jp"
+              },
+              {
+                  "banner_name": "All Sports | Functional 300x250 B",
+                  "banner_base_name":"WME1514_func_300x250_jp"
+              },
+              {
+                  "banner_name": "All Sports | Functional 728x90 B",
+                  "banner_base_name":"WME1514_func_728x90_jp"
+              }
+          ]
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+          "concept_name":"Tennis | Functional",
+          "concept_base_url": "./banners/re_targeting/japanese/tennis_functional/",
+          "banners": [
+              {
+                  "banner_name": "tennis | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Tennis | Emotional",
+          "concept_base_url": "./banners/re_targeting/japanese/tennis_emotional/",
+          "banners": [
+              {
+                  "banner_name": "tennis | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_jp"
+              }
+          ]
+      },
+
+
+
+
+
+
+
+      {
+          "concept_name":"Basketball | Functional",
+          "concept_base_url": "./banners/re_targeting/japanese/basketball_functional/",
+          "banners": [
+              {
+                  "banner_name": "basketball | Functional 300x600",
+                  "banner_base_name":"WME1514_retargeting_func_300x600_jp"
+              },
+              {
+                  "banner_name": "basketball | Functional 160x600",
+                  "banner_base_name":"WME1514_retargeting_func_160x600_jp"
+              },
+              {
+                  "banner_name": "basketball | Functional 300x250",
+                  "banner_base_name":"WME1514_retargeting_func_300x250_jp"
+              },
+              {
+                  "banner_name": "basketball | Functional 728x90",
+                  "banner_base_name":"WME1514_retargeting_func_728x90_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Basketball | Emotional",
+          "concept_base_url": "./banners/re_targeting/japanese/basketball_emotional/",
+          "banners": [
+              {
+                  "banner_name": "basketball | Emotional 300x600",
+                  "banner_base_name":"WME1514_retargeting_emo_300x600_jp"
+              },
+              {
+                  "banner_name": "basketball | Emotional 160x600",
+                  "banner_base_name":"WME1514_retargeting_emo_160x600_jp"
+              },
+              {
+                  "banner_name": "basketball | Emotional 300x250",
+                  "banner_base_name":"WME1514_retargeting_emo_300x250_jp"
+              },
+              {
+                  "banner_name": "basketball | Emotional 728x90",
+                  "banner_base_name":"WME1514_retargeting_emo_728x90_jp"
+              }
+          ]
+      },
+
+
+
+
+
+
+
+      {
+          "concept_name":"Golf | Functional",
+          "concept_base_url": "./banners/re_targeting/japanese/golf_functional/",
+          "banners": [
+              {
+                  "banner_name": "golf | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Golf | Emotional",
+          "concept_base_url": "./banners/re_targeting/japanese/golf_emotional/",
+          "banners": [
+              {
+                  "banner_name": "golf | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Soccer | Functional",
+          "concept_base_url": "./banners/re_targeting/japanese/soccer_functional/",
+          "banners": [
+              {
+                  "banner_name": "soccer | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_jp"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Soccer | Emotional",
+          "concept_base_url": "./banners/re_targeting/japanese/soccer_emotional/",
+          "banners": [
+              {
+                  "banner_name": "soccer | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_jp"
+              }
+          ]
+      }
+
+
+    ]
+}

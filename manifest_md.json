@@ -1,0 +1,153 @@
+{
+    "client": "IMG",
+    "project": "IMG Academy Summer Camp Mandarin",
+    "concepts": [
+
+      {
+          "concept_name":"All Sports | Emotional | Version A",
+          "concept_base_url": "./banners/re_targeting/mandarin/all-sports_emotional/version-a/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Emotional 300x600 A",
+                  "banner_base_name":"WME1514_emo_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"All Sports | Emotional | Version B",
+          "concept_base_url": "./banners/re_targeting/mandarin/all-sports_emotional/version-b/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Emotional 300x600 B",
+                  "banner_base_name":"WME1514_emo_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"All Sports | Functional | Version A",
+          "concept_base_url": "./banners/re_targeting/mandarin/all-sports_functional/version-a/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Functional 300x600 A",
+                  "banner_base_name":"WME1514_func_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"All Sports | Functional | Version B",
+          "concept_base_url": "./banners/re_targeting/mandarin/all-sports_functional/version-b/",
+          "banners": [
+              {
+                  "banner_name": "All Sports | Functional 300x600 B",
+                  "banner_base_name":"WME1514_func_300x600_md"
+              }
+          ]
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+          "concept_name":"Baseball | Functional",
+          "concept_base_url": "./banners/re_targeting/mandarin/baseball_functional/",
+          "banners": [
+              {
+                  "banner_name": "baseball | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Baseball | Emotional",
+          "concept_base_url": "./banners/re_targeting/mandarin/baseball_emotional/",
+          "banners": [
+              {
+                  "banner_name": "baseball | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Basketball | Functional",
+          "concept_base_url": "./banners/re_targeting/mandarin/basketball_functional/",
+          "banners": [
+              {
+                  "banner_name": "basketball | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Basketball | Emotional",
+          "concept_base_url": "./banners/re_targeting/mandarin/basketball_emotional/",
+          "banners": [
+              {
+                  "banner_name": "basketball | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_md"
+              }
+          ]
+      },
+
+
+
+      {
+          "concept_name":"Golf | Functional",
+          "concept_base_url": "./banners/re_targeting/mandarin/golf_functional/",
+          "banners": [
+              {
+                  "banner_name": "golf | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Golf | Emotional",
+          "concept_base_url": "./banners/re_targeting/mandarin/golf_emotional/",
+          "banners": [
+              {
+                  "banner_name": "golf | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Soccer | Functional",
+          "concept_base_url": "./banners/re_targeting/mandarin/soccer_functional/",
+          "banners": [
+              {
+                  "banner_name": "soccer | Functional 300x600",
+                  "banner_base_name":"WME1514_func_300x600_md"
+              }
+          ]
+      },
+
+      {
+          "concept_name":"Soccer | Emotional",
+          "concept_base_url": "./banners/re_targeting/mandarin/soccer_emotional/",
+          "banners": [
+              {
+                  "banner_name": "soccer | Emotional 300x600",
+                  "banner_base_name":"WME1514_emo_300x600_md"
+              }
+          ]
+      }
+
+
+    ]
+}

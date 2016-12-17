@@ -1,0 +1,112 @@
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #92b6c7; }
+
+header {
+  left: 0;
+  right: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  background: #006a92;
+  height: 100px;
+  color: white; }
+
+.header-logo {
+  float: left;
+  background: url("../images/droga5Logo.png") no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  margin: 0 auto; }
+
+header h1 {
+  font-size: 2em;
+  margin: 30px 0; }
+
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -200px;
+  position: relative; }
+
+.project-name {
+  text-align: center; }
+
+.tableholder {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  background-color: white;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
+  line-height: 2; }
+
+.tableholder table {
+  width: 100%; }
+
+.tableholder table, td {
+  border: 1px solid black; }
+
+.tableholder th, td {
+  padding: 5px 10px; }
+
+.tableholder tbody tr:nth-child(even) {
+  background-color: #c7c8ca; }
+
+.tableholder tbody tr:nth-child(odd) {
+  background-color: white; }
+
+.concept-title {
+  background-color: #4d4d4f;
+  color: white; }
+
+.file-size-alert {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.2); }
+
+.backup-thumbnail {
+  text-align: center; }
+
+.backup-thumbnail img {
+  width: 100%;
+  max-width: 100px; }
+
+.clearFooter {
+  height: 200px;
+  clear: both; }
+
+.footer {
+  height: 200px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #006a92;
+  padding: 50px 0;
+  text-align: center; }
+
+.footer-caption {
+  color: #92b6c7;
+  font-size: 0.7em;
+  margin-top: 20px; }
+
+/* desktop */
+@media (min-width: 768px) {
+  .header-logo {
+    width: 100px;
+    height: 50px;
+    top: 30px; }
+
+  header h1 {
+    font-size: 2.5em;
+    line-height: 2.5;
+    margin: 0; }
+
+  .tableholder table {
+    font-size: 1.2em;
+    line-height: 2; }
+
+  .tableholder th, td {
+    padding: 10px 15px; } }
