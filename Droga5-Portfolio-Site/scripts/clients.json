@@ -1,0 +1,39 @@
+{"client":[
+
+
+{"name":"google", "logo":"img/logos/android_logo.png",
+  "concepts":[
+    {
+    "concept1":"262", "staticImg":"img/banners/Google_262.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase3/",
+     "tags":{"difficulty":"easy","cost":"$$$","type":"animation"}
+    },
+    {
+    "concept2":"shower", "staticImg":"img/banners/Google_shower.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase3/",
+     "tags":{"difficulty":"easy","cost":"$$$","type":"animation"}
+    },
+    {
+    "concept3":"flyer", "staticImg":"img/banners/Google_flyer.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase2/NOW/now_frequentFlyer_300x250/index.html",
+     "tags":{"difficulty":"easy","cost":"$$$$","type":"animation"}
+    },
+    {
+    "concept4":"play", "staticImg":"img/banners/Google_play.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase3/",
+     "tags":{"difficulty":"easy","cost":"$$","type":"animation"}
+    },
+    {
+    "concept5":"weekend", "staticImg":"img/banners/Google_weekend.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase3/",
+     "tags":{"difficulty":"easy","cost":"$$$$$","type":"animation"}
+    },
+    {
+    "concept6":"bar", "staticImg":"img/banners/Google_bar.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase3/",
+     "tags":{"difficulty":"easy","cost":"$$$$","type":"animation"}
+    },
+    {
+    "concept7":"barista", "staticImg":"img/banners/Google_barista.jpg", "server_url":"http://banners.d5servers.com/projects/thunder/2015/h2/phase3/",
+     "tags":{"difficulty":"easy","cost":"$$$$$","type":"animation"}
+    }
+  ]
+}
+
+
+
+]}
