@@ -1,0 +1,30 @@
+{
+    "client": "Chase",
+    "project": "Macaskill 80k Earned",
+    "concepts": [
+
+        {
+            "concept_name":"Macaskill 80k Earned",
+            "concept_base_url": "./banners/",
+            "banners": [
+                {
+                    "banner_name": "Macaskill 80k Earned 300x600",
+                    "banner_base_name":"cha0102-macaskill-300x600"
+                },
+                {
+                    "banner_name": "Macaskill 80k Earned 160x600",
+                    "banner_base_name":"cha0102-macaskill-160x600"
+                },
+                {
+                    "banner_name": "Macaskill 80k Earned 300x250",
+                    "banner_base_name":"cha0102-macaskill-300x250"
+                },
+                {
+                    "banner_name": "Macaskill 80k Earned 728x90",
+                    "banner_base_name":"cha0102-macaskill-728x90"
+                }
+            ]
+        }
+
+    ]
+}
