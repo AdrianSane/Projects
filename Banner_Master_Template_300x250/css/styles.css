@@ -1,0 +1,57 @@
+/************************************
+
+*    Droga5 Banner CSS
+*    Adrian Velazquez
+*    Junior Interactive Developer
+*    ??? - 2016
+    --------------------
+*    avelazquez@droga5.com
+
+************************************/
+/*
+  .ref{
+  opacity: .25;
+  }
+*/
+#banner, .dimensions, .retina{
+width: 300px;
+height: 250px;
+}
+#banner, .dimensions{
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+#banner{
+overflow: hidden;
+cursor: pointer;
+background-color: #e20074;
+border: 1px solid black;
+position: absolute;
+transform: translate3d(0px, 0px, 0px);
+margin: auto;
+}
+.dimensions{
+position: absolute;
+}
+.center-horiz {
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+}
+/*
+  apply this .retina class to retina sized graphics
+  be sure to change the dimensions to double
+  the width and height of your banner's actual
+  dimensions
+*/
+.retina{
+background-size: 300px 250px;
+}
+/* hides all elements until called in the javascript */
+.hidden{
+opacity:0;
+}
+/* banner animation styles begin here */
